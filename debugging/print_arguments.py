@@ -2,9 +2,10 @@
 import sys
 
 def main() -> int:
-    print(sys.argv[0])
+    print(f"Programme: {sys.argv[0]}")
+    print("Arguments:")
     for arg in sys.argv[1:]:
-        print(arg)
+        print(f"  - {arg}")
     return 0
 
 if __name__ == "__main__":
