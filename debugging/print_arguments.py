@@ -2,7 +2,8 @@
 import sys
 
 def main() -> int:
-    for arg in sys.argv:
+    print(sys.argv[0])
+    for arg in sys.argv[1:]:
         print(arg)
     return 0
 
